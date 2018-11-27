@@ -1,0 +1,95 @@
+@font-face { font-family: New athletic; src: url('../lib/font/New Athletic.ttf'); }
+@font-face { font-family: Just tell me; src: url('../lib/font/Just tell me.otf'); }
+@font-face { font-family: Upbolters; src: url('../lib/font/Upbolters.otf'); }
+@font-face { font-family: Upbolters_italic; src: url('../lib/font/Upbolters_italic.otf'); }
+.font{
+	font-family: Upbolters;
+}
+.font1{
+	font-family: New athletic;
+	font-size: 20px;
+}
+.font2{
+	font-family: Upbolters;
+	font-size: 20px;
+}
+
+.logo{
+	border-radius: 50%;
+	width:100;
+	height:100px;
+	float: left;
+    margin: 0 0 10px 10px;
+	padding-top:0px;
+	
+}
+
+.div1{	
+height:100px;
+}
+
+.color{
+	color: white;
+}
+
+#slika{
+	width:100%;
+	height:400px;
+}
+
+.vel{
+	height:400px;
+	width:100%;
+}
+
+.vertical-offset-100 {
+    padding-top:100px;
+}
+
+.frame{
+	width:370px;
+	height:370px;
+
+}
+.misljenje {
+	border: 1px solid black;
+	height:300px;
+	width:100%px;
+}
+
+.cent {
+	background-color:#e3e4e8;
+	width:370px;height:370px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.komentar {
+	width: 600px;
+	padding: 0px 10px;
+	line-height: 20px;
+	overflow: hidden;
+	word-wrap:break-word;
+}
+
+.kategorije {
+	width: 200px;
+	height: 200px;
+}
+.admin {
+	color:red;
+}
+.bold {
+	text:bold;
+}
+.center {
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left:10%;
+}
+.inline {
+	display:inline;
+}
